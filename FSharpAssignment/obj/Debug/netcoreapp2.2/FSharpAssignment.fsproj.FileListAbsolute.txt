@@ -8,3 +8,13 @@ C:\Users\Jesper\source\repos\FSharpAssignment\FSharpAssignment\bin\Debug\netcore
 C:\Users\Jesper\source\repos\FSharpAssignment\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.pdb
 C:\Users\Jesper\source\repos\FSharpAssignment\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.dll
 C:\Users\Jesper\source\repos\FSharpAssignment\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.pdb
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.deps.json
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.runtimeconfig.json
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.runtimeconfig.dev.json
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.dll
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\bin\Debug\netcoreapp2.2\FSharpAssignment.pdb
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.fsprojAssemblyReference.cache
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.AssemblyInfoInputs.cache
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.AssemblyInfo.fs
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.dll
+C:\Users\Jesper\Desktop\repos\F-Compulsory\FSharpAssignment\obj\Debug\netcoreapp2.2\FSharpAssignment.pdb

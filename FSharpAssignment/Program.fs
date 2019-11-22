@@ -2,7 +2,7 @@
 
 // Learn more about F# at http://fsharp.org
 
-
+let list1 = [ 3;4;5;12;13;15 ] 
 let list2 = [ 1;1;1;1;2;2;2;3;3;3;3;3;4;4;4;4;4;4;5;5;6;6;7;7;7;7;7;7;7;8;8;8;8;8;9;9;9;9;9;10; ]
 
 
@@ -25,6 +25,19 @@ let rec insert weakList item =
 
 
 // 4.11 - 3. Comparing Lists
+let rec mem list x = 
+  match list with
+  | [] -> false
+  | head :: tail -> 
+    if x = head then true else mem tail x 
+
+let rec compare list1 list2 = 
+  match list1 with
+  | head :: tail -> 
+      let rest = compare tail list2
+      if mem list2 head then head::rest
+      else rest
+  | [] -> []
 
 // 4.11 - 4. Plus
 let plus (list1, list2) =

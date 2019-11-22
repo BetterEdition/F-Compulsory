@@ -793,11 +793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesper\\source\\repos\\FSharpAssignment\\FSharpAssignment\\FSharpAssignment.fsproj",
+      "projectUniqueName": "C:\\Users\\Jesper\\Desktop\\repos\\F-Compulsory\\FSharpAssignment\\FSharpAssignment.fsproj",
       "projectName": "FSharpAssignment",
-      "projectPath": "C:\\Users\\Jesper\\source\\repos\\FSharpAssignment\\FSharpAssignment\\FSharpAssignment.fsproj",
+      "projectPath": "C:\\Users\\Jesper\\Desktop\\repos\\F-Compulsory\\FSharpAssignment\\FSharpAssignment.fsproj",
       "packagesPath": "C:\\Users\\Jesper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesper\\source\\repos\\FSharpAssignment\\FSharpAssignment\\obj\\",
+      "outputPath": "C:\\Users\\Jesper\\Desktop\\repos\\F-Compulsory\\FSharpAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
