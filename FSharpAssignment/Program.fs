@@ -4,48 +4,37 @@
 
 let list1 = [ 3;4;5;12;13;15 ] 
 let list2 = [ 1;1;1;1;2;2;2;3;3;3;3;3;4;4;4;4;4;4;5;5;6;6;7;7;7;7;7;7;7;8;8;8;8;8;9;9;9;9;9;10; ]
-
-
+let number = 3
 // 4.11 - 1. Find Occurrences 
-let rec count weakList item =
-    match weakList with
+let rec count item = function
     | [] -> 0
-    | x::[] -> if x = item then 1 else 0
-    | x::xs -> (if x = item then 1 else 0) + count xs item
+    | x::[] -> (if x = item then 1 else 0)
+    | x::xs -> (if x = item then 1 else 0) + count item xs
 
 // 4.11 - 2. Insert
-let rec insert weakList item =
-    match weakList with
+let rec insert item = function
     | [] -> [item]
-    | x::[] when item <= x -> [item] @ [x]
-    | x::[] when item > x -> [x] @ [item]
-    | x::xs when item <= x -> item::[x] @ xs
-    | x::xs when item > x -> x::(insert xs item)
-    | _ -> failwith "Incomplete match on %A" weakList
-
+    | x::[] -> if item <= x then [item] @ [x] else [x] @ [item]
+    | x::xs -> if item <= x then item::[x] @ xs else x::(insert item xs)
 
 // 4.11 - 3. Comparing Lists
-let rec mem list x = 
-  match list with
+let rec isMember num = function
   | [] -> false
-  | head :: tail -> 
-    if x = head then true else mem tail x
+  | x :: xs -> if num = x then true elif num < x then false else isMember num xs
 
-let rec compare list1 list2 = 
-  match list1 with
+let rec compare list2 = function
   | [] -> []
   | x :: xs -> 
       let rest = compare xs list2
-      if mem list2 x then x::rest
+      if isMember x list2 then x::rest
       else rest
   
 
 // 4.11 - 4. Plus
 let plus (list1, list2) =
-    let rec plus' list resultlist =
-        match list with
-        | [] -> resultlist
-        | x::xs -> insert resultlist x |> plus' xs 
+    let rec plus' list resultlist = function
+      | [] -> resultlist
+      | x::xs -> insert resultlist x |> plus'
     plus' list2 list1
 
  // 4.11 - 5. Minus
