@@ -29,15 +29,16 @@ let rec mem list x =
   match list with
   | [] -> false
   | head :: tail -> 
-    if x = head then true else mem tail x 
+    if x = head then true else mem tail x
 
 let rec compare list1 list2 = 
   match list1 with
-  | head :: tail -> 
-      let rest = compare tail list2
-      if mem list2 head then head::rest
-      else rest
   | [] -> []
+  | x :: xs -> 
+      let rest = compare xs list2
+      if mem list2 x then x::rest
+      else rest
+  
 
 // 4.11 - 4. Plus
 let plus (list1, list2) =
