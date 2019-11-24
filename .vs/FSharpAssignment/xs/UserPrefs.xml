@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{3BDDC8CB-B4F1-4FFA-AC79-7A6F1F4778AD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FSharpAssignment/Program.fs">
+    <Files>
+      <File FileName="FSharpAssignment/Program.fs" Line="51" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FSharpAssignment" expanded="True">
+            <Node name="FSharpAssignment" expanded="True">
+              <Node name="Program.fs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FSharpAssignment PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

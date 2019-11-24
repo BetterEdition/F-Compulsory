@@ -2,7 +2,7 @@
 
 // Learn more about F# at http://fsharp.org
 
-let list1 = [ 3;4;5;12;13;15 ] 
+let list1 = [ 1;1;1;1;2;2] 
 let list2 = [ 1;1;1;1;2;2;2;3;3;3;3;3;4;4;4;4;4;4;5;5;6;6;7;7;7;7;7;7;7;8;8;8;8;8;9;9;9;9;9;10; ]
 
 // 4.11 - 1. Find Occurrences 
@@ -39,13 +39,16 @@ let rec plus list resultlist =
 
  // 4.11 - 5. Minus
 let rec removeItem list itemToRemove resultList =
-        match list with
+       match list with
         | [] -> resultList
-        | x::[] when x = itemToRemove -> resultList
-        | x::xs when x = itemToRemove -> resultList @ xs
-        | x::xs -> resultList @ [x] @ removeItem xs itemToRemove resultList
+        | x::[] when x = itemToRemove -> resultList 
+        | x::xs  when x = itemToRemove -> resultList @ xs
+        | x::xs -> resultList @ [x] @ removeItem xs itemToRemove resultList 
 
 let rec removeList listToRemove itemsToBeRemoved =
+    printfn "listToRemove: %A" listToRemove
+    printfn "itemsToBeRemoved: %A" itemsToBeRemoved
     match listToRemove with
     | [] -> itemsToBeRemoved
     | x::xs -> removeList xs (removeItem itemsToBeRemoved x [])
+
