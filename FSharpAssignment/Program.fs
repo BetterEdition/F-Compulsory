@@ -39,16 +39,17 @@ let rec plus list resultlist =
 
  // 4.11 - 5. Minus
 let rec removeItem list itemToRemove resultList =
-       match list with
+
+        match list with
         | [] -> resultList
-        | x::[] when x = itemToRemove -> resultList 
+        | x::[] when x = itemToRemove ->  resultList 
         | x::xs  when x = itemToRemove -> resultList @ xs
         | x::xs -> resultList @ [x] @ removeItem xs itemToRemove resultList 
 
-let rec removeList listToRemove itemsToBeRemoved =
-    printfn "listToRemove: %A" listToRemove
-    printfn "itemsToBeRemoved: %A" itemsToBeRemoved
-    match listToRemove with
-    | [] -> itemsToBeRemoved
-    | x::xs -> removeList xs (removeItem itemsToBeRemoved x [])
+let rec removeList itemsToBeRemoved listToRemove =
+   // printfn "list: %A" listToRemove
+    match itemsToBeRemoved with
+    | [] -> listToRemove
+    | x::xs -> removeList xs (removeItem listToRemove x [])
 
+    
