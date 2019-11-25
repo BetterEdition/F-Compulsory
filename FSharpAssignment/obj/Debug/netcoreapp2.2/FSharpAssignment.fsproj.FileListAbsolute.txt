@@ -23,6 +23,5 @@ C:/Users/Jesper/Desktop/repos/F-Compulsory/FSharpAssignment/obj/Debug/netcoreapp
 /Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/bin/Debug/netcoreapp2.2/FSharpAssignment.runtimeconfig.dev.json
 /Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/bin/Debug/netcoreapp2.2/FSharpAssignment.dll
 /Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/bin/Debug/netcoreapp2.2/FSharpAssignment.pdb
-/Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/obj/Debug/netcoreapp2.2/FSharpAssignment.fsprojAssemblyReference.cache
 /Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/obj/Debug/netcoreapp2.2/FSharpAssignment.dll
 /Users/edwinsilva/Desktop/F-Compulsory/FSharpAssignment/obj/Debug/netcoreapp2.2/FSharpAssignment.pdb
